@@ -1,4 +1,4 @@
-# polymarket-subgraph
+# Derived Binary Market -subgraph
 
 1. Make changes to mappings, etc.
 2. Run `export ACCESS_TOKEN=<ACCESS_TOKEN>`.
