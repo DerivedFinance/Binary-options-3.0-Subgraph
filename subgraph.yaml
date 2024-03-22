@@ -5,11 +5,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: ConditionalTokens
-    network: arbitrum-one
+    network: arbitrum-sepolia
     source:
-      address: '0x94aC9Cb8AF8B9DCF4a1940772655b5D959157672'
+      address: '0x06b7C20F875FfE277220409556D56A89AA28b0b5'
       abi: ConditionalTokens
-      startBlock: 32653401
+      startBlock: 25817008
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -39,11 +39,11 @@ dataSources:
       file: ./src/ConditionalTokensMapping.ts
   - kind: ethereum/contract
     name: FixedProductMarketMakerFactory
-    network: arbitrum-one
+    network: arbitrum-sepolia
     source:
-      address: '0x71b0B492fEdFbeF001c7A1F378b65E565A776500'
+      address: '0x88aEB51A57d7831Cc386c79fc9Cc54fd3587BaF3'
       abi: FixedProductMarketMakerFactory
-      startBlock: 32653589
+      startBlock: 25818104
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -62,7 +62,7 @@ dataSources:
 templates:
   - name: FixedProductMarketMaker
     kind: ethereum/contract
-    network: arbitrum-one
+    network: arbitrum-sepolia
     source:
       abi: FixedProductMarketMaker
     mapping:
@@ -96,7 +96,7 @@ templates:
       file: ./src/FixedProductMarketMakerMapping.ts
   - name: ERC20Detailed
     kind: ethereum/contract
-    network: arbitrum-one
+    network: arbitrum-sepolia
     source:
       abi: ERC20Detailed
     mapping:

@@ -59,7 +59,7 @@ export function handleFixedProductMarketMakerCreation(
 
   if (
     conditionalTokensAddress !=
-    '0x94ac9cb8af8b9dcf4a1940772655b5d959157672'
+    '0x06b7c20f875ffe277220409556d56a89aa28b0b5'
   ) {
     log.info('cannot index market maker {}: using conditional tokens {}', [
       addressHexString,
